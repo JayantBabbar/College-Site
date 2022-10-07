@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.justify-between{
+  justify-content:space-between;
+}
+
+.flex{
+  display:flex;
+}
+
+.item-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.college-name {
+  margin: 1em 24rem 2em;
+}
+
+.text {
+  text-align: center;
+}
+
+.text p {
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+.college-name img {
+  width: 100px;
+  margin-right: 1em;
+}
+
+.nav {
+  background-color: #09244e;
+  padding: 1em;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: aliceblue;
+  text-decoration: none;
+  transition: all .3s ease;
+  padding: 1rem 1.5rem;
+}
+
+/* .nav-links li:not(:last-child) {
+  margin-right: 6em;
+} */
+
+.link:hover{
+  background: #ebad29;
+  color:#FEFEFE;
+}
+
+.link:active{
+  background: #ebad29;
+  color:#FEFEFE;
+}
+
+
+
+header.topbar{
+  background: #09244e;
+  color: #FEFEFE;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.45rem 0;
+}
+
+header.topbar .auth > div a{
+   color: #FEFEFE;
+   text-decoration: none;
+}
+
+header.topbar .icons a{
+   margin-right: 0.6rem;
+}
+
+header.topbar .auth .divider{
+     padding: 0 1rem;
+}
+
+header.topbar .auth > div img{
+   margin-right: 0.35rem;
+}
+
+
+header.topbar .icons img{
+   margin-right: 0.35rem;
+}
+
+.container{
+  width:100%;
+  padding:0 15px;
+  margin:0 auto;
+}
+
+.magic-shadow{
+  position: relative;
+  /* background: #FFFFFF; */
+}
+
+.magic-shadow:after{
+  content:'';
+  display: block;
+  width: 100%;
+  height:69px;
+  background-image:url("../icons/shadow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom:-22px;
+  z-index: -1;
+}
